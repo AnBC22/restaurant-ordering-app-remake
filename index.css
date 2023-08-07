@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Smythe', cursive;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+    background-image: url('img/bg-img.png');
+    color: #FFFFFF;
+    background-size: cover;
+    padding: 38px 0 38px 22px;
+}
+
+h1, 
+h2, 
+h3, 
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+}
+
+h3,
+.price {
+    font-size: 21px;
+}
+
+header {
+    max-width: 590px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.header-inner {
+    width: 260px;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0px auto;
+    padding: 55px 20px 35px 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 35px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.menu-item-description {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}    
+
+.icon-container {
+    min-width: 100px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 75px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+}
+
+.plus-btn {
+  border: 1px solid #DEDEDE;
+  background-color: white;
+  color: #3C3C3C;
+  padding: 10px;
+  border-radius: 50%;
+  width: 52px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.plus-btn:disabled {
+    border: 1px solid #C3C3C3;
+    color: #C3C3C3;
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+#order-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.green-btn {
+    width: 100%;
+    padding: 20px 0 20px;
+    background-color: #16DB99; 
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.order-confirmation-container {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    min-height: 250px;
+}
+
+.order-confirmation-inner {
+    padding: 20px 0 12px;
+    border-bottom: 1px solid gray;
+}
+
+.confirmation-price,
+#confirmation-price-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remove-option p {
+    color: #999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.card-details-modal {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px 15px;
+    text-align: center;
+    font-family: verdana;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 420px;
+    box-shadow: black 0px 0px 400px;
+}
+
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #757575;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-family: verdana;
+}
+
+.pay-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-message {
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 52.5% */
+    margin-top: 25px;
+}
